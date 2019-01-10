@@ -5,9 +5,7 @@ class Employee:
     def __init__(self, name, employee_number):
         self.name = name
         self.employee_number = employee_number
-        self.department = ""
-        self.job_title = ""
-        self.start_date = ""
+
 
     def hire_employee(self, department, job_title, start_date):
         self.department = department
